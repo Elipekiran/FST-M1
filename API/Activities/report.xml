@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Activity5.http&amp;colon;&amp;sol;&amp;sol;ipwhois.app Test Suite" time="0.427" tests="1" failures="1" errors="0" package="Activity5" id="1">
+  <testsuite name="Activity1.https&amp;colon;&amp;sol;&amp;sol;petstore.swagger.io Test Suite" time="2.81" tests="1" failures="0" errors="0" package="Activity1" id="1">
     <properties>
       <property name="install4j.launcherId" value="376"/>
       <property name="java.specification.version" value="17"/>
@@ -88,96 +88,6 @@
       <property name="install4j.swt" value="false"/>
       <property name="soapui.properties" value="soapui.properties"/>
     </properties>
-    <testcase name="http://ipwhois.app Test Case 1" time="0.29">
-      <failure type="Failing due to failed test step" message="Failing due to failed test step"><![CDATA[<h3><b>Request 1 Failed</b></h3><pre>[JSONPath Match] Comparison failed. Path: [$['country']]; Expected value: ["Norway"]; Actual value: [United States].
-Status: FAIL
-Time Taken: 85
-Size: 704
-Timestamp: Wed Nov 09 16:49:28 IST 2022
-TestStep: Request 1
-
------------------ Messages ------------------------------
-[JSONPath Match] Comparison failed. Path: [$[&apos;country&apos;]]; Expected value: [&quot;Norway&quot;]; Actual value: [United States].
-
------------------ Properties ------------------------------
-HTTP Version: HTTP/1.1
-Endpoint: http://ipwhois.app
-Method: GET
-StatusCode: 200
-URL: http://ipwhois.app/json/164.172.55.44
-
----------------- Request ---------------------------
-Connection: [Keep-Alive]
-User-Agent: [Apache-HttpClient/4.5.2 (Java/17.0.4.1)]
-Host: [ipwhois.app]
-Accept-Encoding: [gzip,deflate]
-Content-Length: [0]
-
-GET http://ipwhois.app/json/164.172.55.44 HTTP/1.1
-Accept-Encoding: gzip,deflate
-Content-Length: 0
-Host: ipwhois.app
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.2 (Java/17.0.4.1)
-
-
----------------- Response --------------------------
-Transfer-Encoding: [chunked]
-X-Robots-Tag: [noindex]
-Server: [ipwhois]
-Access-Control-Allow-Origin: [*]
-Connection: [keep-alive]
-#status#: [HTTP/1.1 200 OK]
-Date: [Wed, 09 Nov 2022 11:20:19 GMT]
-Access-Control-Allow-Headers: [*]
-Content-Type: [application/json; charset=utf-8]
-
-{&quot;ip&quot;:&quot;164.172.55.44&quot;,&quot;success&quot;:true,&quot;type&quot;:&quot;IPv4&quot;,&quot;continent&quot;:&quot;North America&quot;,&quot;continent_code&quot;:&quot;NA&quot;,&quot;country&quot;:&quot;United States&quot;,&quot;country_code&quot;:&quot;US&quot;,&quot;country_flag&quot;:&quot;https:\/\/cdn.ipwhois.io\/flags\/us.svg&quot;,&quot;country_capital&quot;:&quot;Washington D.C.&quot;,&quot;country_phone&quot;:&quot;+1&quot;,&quot;country_neighbours&quot;:&quot;CA,MX&quot;,&quot;region&quot;:&quot;Arizona&quot;,&quot;city&quot;:&quot;Sierra Vista&quot;,&quot;latitude&quot;:31.5455001,&quot;longitude&quot;:-110.2772856,&quot;asn&quot;:&quot;AS749&quot;,&quot;org&quot;:&quot;Headquarters, USAISC&quot;,&quot;isp&quot;:&quot;DoD Network Information Center&quot;,&quot;timezone&quot;:&quot;America\/Phoenix&quot;,&quot;timezone_name&quot;:&quot;MST&quot;,&quot;timezone_dstOffset&quot;:0,&quot;timezone_gmtOffset&quot;:-25200,&quot;timezone_gmt&quot;:&quot;-07:00&quot;,&quot;currency&quot;:&quot;US Dollar&quot;,&quot;currency_code&quot;:&quot;USD&quot;,&quot;currency_symbol&quot;:&quot;$&quot;,&quot;currency_rates&quot;:1,&quot;currency_plural&quot;:&quot;US dollars&quot;}
-</pre><hr/><h3><b>Request 1 Failed</b></h3><pre>[JSONPath Match] Comparison failed. Path: [$['country']]; Expected value: ["Norway"]; Actual value: [Kuwait].
-Status: FAIL
-Time Taken: 46
-Size: 719
-Timestamp: Wed Nov 09 16:49:28 IST 2022
-TestStep: Request 1
-
------------------ Messages ------------------------------
-[JSONPath Match] Comparison failed. Path: [$[&apos;country&apos;]]; Expected value: [&quot;Norway&quot;]; Actual value: [Kuwait].
-
------------------ Properties ------------------------------
-HTTP Version: HTTP/1.1
-Endpoint: http://ipwhois.app
-Method: GET
-StatusCode: 200
-URL: http://ipwhois.app/json/149.147.244.212
-
----------------- Request ---------------------------
-Connection: [Keep-Alive]
-User-Agent: [Apache-HttpClient/4.5.2 (Java/17.0.4.1)]
-Host: [ipwhois.app]
-Accept-Encoding: [gzip,deflate]
-Content-Length: [0]
-
-GET http://ipwhois.app/json/149.147.244.212 HTTP/1.1
-Accept-Encoding: gzip,deflate
-Content-Length: 0
-Host: ipwhois.app
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.2 (Java/17.0.4.1)
-
-
----------------- Response --------------------------
-Transfer-Encoding: [chunked]
-X-Robots-Tag: [noindex]
-Server: [ipwhois]
-Access-Control-Allow-Origin: [*]
-Connection: [keep-alive]
-#status#: [HTTP/1.1 200 OK]
-Date: [Wed, 09 Nov 2022 11:20:19 GMT]
-Access-Control-Allow-Headers: [*]
-Content-Type: [application/json; charset=utf-8]
-
-{&quot;ip&quot;:&quot;149.147.244.212&quot;,&quot;success&quot;:true,&quot;type&quot;:&quot;IPv4&quot;,&quot;continent&quot;:&quot;Asia&quot;,&quot;continent_code&quot;:&quot;AS&quot;,&quot;country&quot;:&quot;Kuwait&quot;,&quot;country_code&quot;:&quot;KW&quot;,&quot;country_flag&quot;:&quot;https:\/\/cdn.ipwhois.io\/flags\/kw.svg&quot;,&quot;country_capital&quot;:&quot;Kuwait City&quot;,&quot;country_phone&quot;:&quot;+965&quot;,&quot;country_neighbours&quot;:&quot;IQ,SA&quot;,&quot;region&quot;:&quot;Mubarak Al-Kabeer&quot;,&quot;city&quot;:&quot;Sabah Al Salem&quot;,&quot;latitude&quot;:29.2565637,&quot;longitude&quot;:48.062605,&quot;asn&quot;:&quot;AS42961&quot;,&quot;org&quot;:&quot;ZAIN KW&quot;,&quot;isp&quot;:&quot;Mobile Telecommunications Company&quot;,&quot;timezone&quot;:&quot;Asia\/Kuwait&quot;,&quot;timezone_name&quot;:&quot;+03&quot;,&quot;timezone_dstOffset&quot;:0,&quot;timezone_gmtOffset&quot;:10800,&quot;timezone_gmt&quot;:&quot;+03:00&quot;,&quot;currency&quot;:&quot;Kuwaiti Dinar&quot;,&quot;currency_code&quot;:&quot;KWD&quot;,&quot;currency_symbol&quot;:&quot;.\u062f.\u0643 \u2022 KD&quot;,&quot;currency_rates&quot;:0.309,&quot;currency_plural&quot;:&quot;Kuwaiti dinars&quot;}
-</pre><hr/>]]></failure>
-    </testcase>
+    <testcase name="Test Case" time="2.729"/>
   </testsuite>
 </testsuites>
